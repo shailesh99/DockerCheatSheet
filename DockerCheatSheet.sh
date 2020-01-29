@@ -3,7 +3,7 @@
 sudo docker-machine scp -r ./example/ myvm1:/home/app
 
 
-#Push
+#Push to docker hub
 #First tag a local image with the new repo and tag
 #docker image tag local_image:tag new_repo/image:tag
 docker image tag ubuntu:latest shailesh99/myubuntu:latest
